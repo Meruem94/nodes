@@ -1,0 +1,4 @@
+# Declaration of all variables for resolv.conf file
+---
+nameserver1: XX.XX.XX.XX
+nameserver2: YY.YY.YY.YY

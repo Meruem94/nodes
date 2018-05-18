@@ -1,0 +1,4 @@
+[nodes]
+XX.XX.XX.XX ansible_connection=ssh ansible_ssh_user=XXXX ansible_become=yes
+XX.XX.XX.XX ansible_connection=ssh ansible_ssh_user=XXXX ansible_become=yes
+XX.XX.XX.XX ansible_connection=ssh ansible_ssh_user=XXXX ansible_become=yes

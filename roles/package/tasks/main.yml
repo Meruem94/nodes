@@ -1,0 +1,12 @@
+---
+- name: Disable SELinux
+  selinux:
+    state: disabled
+
+- name: Install package htop | tcpdump | tshark 
+  apt:
+    name: 
+        - htop
+        - tcpdump
+        - tshark
+    state: latest
