@@ -10,3 +10,12 @@
         - tcpdump
         - tshark
     state: latest
+    
+ - name: Ensure the installed service is started
+   service:
+    name:
+        - htop
+        - tcpdump
+        - tshark
+    state: started
+    enabled: yes
